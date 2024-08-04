@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+
+#nav{
+    height:70px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    gap : 30px;
+    padding : 0 30px; 
+}
+#nav i{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding : 10px;
+    border-radius: 50%;
+    font-weight: 500;
+}
+#centre{
+    font-size: 28px;
+    font-weight: 800;
+    padding:0 60px;
+    line-height: 65px;
+    /* background-color: red; */
+}
+#centre2{
+    height: 28%;
+    width : 100%;
+    /* background-color: red; */
+
+    display: flex;
+    justify-content: space-between;
+}
+#centre2 p{
+    margin-top: 30px;
+    padding : 0 60px;
+}
+#right{ 
+    width : 20%;
+}
+.ele{
+    /* background-color: yellow; */
+    /* margin:5px; */
+    padding: 15px 0;
+    border-top: 2px black solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ele a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+}
+.ele i{
+    opacity: 0; 
+    font-size: 20px;
+    font-weight: 600;
+}    
+.ele:hover i{
+   opacity : 1;
+} 
+.ele:hover{
+    background-color: rgb(228, 228, 228);
+}
+.ele:hover a{
+    text-decoration: underline;
+}
+
+#bottom{
+    height: 170px;
+    width:100%;
+    background-image: url(https://media.istockphoto.com/id/1272410886/photo/african-american-man-with-afro-hair-wearing-hoodie-and-standing-over-isolated-yellow.jpg?s=1024x1024&w=is&k=20&c=Y8qDacWVTzx2TbG9u6HadezR8YnvxPBBtI6rB1xPS4g=);
+    background-size: cover;
+    background-position: 7%;
+}
